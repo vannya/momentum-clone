@@ -1,0 +1,58 @@
+.focus {
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.focusClosed {
+  display: none;
+}
+
+.name {
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 2px;
+}
+
+.nameStriked {
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: line-through;
+}
+
+.displayed i {
+  cursor: pointer;
+}
+
+.formRendered > .question {
+  font-size: 2.3rem;
+}
+
+.formRendered > input {
+  border: none;
+  border-bottom: 3px solid #fff;
+  width: 450px;
+  margin: 30px;
+  background: transparent;
+  line-height: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  outline-style: none;
+}
+
+.focusRendered {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.focus > h3 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px;
+}
